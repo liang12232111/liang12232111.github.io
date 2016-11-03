@@ -1,0 +1,20 @@
+/*about*/
+.about_content{width: 100%;background: #e3e3e3;background-image: url(../img/aboutimg/world_map.png);background-repeat: no-repeat;padding-top: 100px;padding-bottom: 30px;}
+h3{font-size: 1.8em;margin-bottom: 20px;}
+.about_content p{font-size: medium;font-family: arial;font-weight: lighter;padding-bottom: 2em;line-height: 2em;width: 490px;}
+.about_logo{overflow: hidden;}
+.about_logo img{float: left;height: 75px;padding-bottom: 10px;padding-right: 59px;}
+
+
+
+@media only screen and (min-width: 1120px) {
+	.about_content{background-position-y: 50px;background-size: 1120px;background-position-x: center;}
+}
+@media only screen and (min-width: 640px) and (max-width: 1120px) {
+	.about_content{background-position-y: center;background-size: 1120px;background-position-x: center;}
+}
+@media only screen and (max-width:640px ) {
+	.about_content{margin-top: 46px;background-position-y: center;background-size: 1120px;background-position-x: center;}
+	.about_content p{width: 100%;}
+}
+
